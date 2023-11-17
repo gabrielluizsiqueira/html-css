@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'milk';
+            src: url('fonts/Super\ Milk.ttf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: 'Arial, Helvetica', sans-serif;
+        }
+
+        h1 {
+            font-family: 'milk', serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título aaaa</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla reiciendis ea commodi quos, inventore magni officia culpa ex quae sint sit facilis autem totam ipsa quod nobis, debitis fugiat vel.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sit iusto eveniet placeat, rerum, reiciendis modi enim facere magnam earum ducimus debitis pariatur voluptatum? Accusantium, minus. Reiciendis animi illo minus?</p>
+</body>
+</html>

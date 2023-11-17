@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags semânticas</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(168, 209, 114);
+        margin: 0px;
+    }
+
+    
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        background-color: rgb(168, 209, 114);
+        padding: 5px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.507);
+        /* 
+            Deslocamento horizontal
+            Deslocamento vertical
+            Espalhamento
+            Sombra
+        */
+    }
+
+    nav > a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;   
+    }
+
+    nav > a:hover {
+         text-decoration: underline;
+    }
+
+    main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    section#assuntos > h3 {
+        font-size: 1em;
+        background-color: rgb(168, 209, 114);
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.493);
+    }
+
+    footer {
+        font-weight: lighter;
+        background-color: white;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+        background-color: white;
+        border-radius: 50%;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos</h2>
+            <h3>Games</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum architecto velit tempore, animi et sed accusantium ipsam consectetur earum optio fuga dolorem, minus neque, cumque quasi? Quis maiores beatae quidem.</p>
+            <h3>Programação</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis, nam adipisci placeat dignissimos repellat voluptatum facere laudantium vero recusandae esse? Et maxime veniam esse minus aliquam, ipsum facilis perspiciatis!</p>
+            <h3>Tecnologia</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime cum dicta rerum necessitatibus asperiores maiores atque esse incidunt expedita ut cumque beatae, numquam nam vel quos molestias? Dolorum, natus expedita.</p>
+            <h3>Economia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam natus sapiente deserunt fugit, architecto quaerat nihil, provident quod sunt blanditiis unde aliquam harum modi nostrum velit! Officiis magnam est quasi? </p>
+        </section>
+        <section id="noticias">
+            <h2>Notícias</h2>
+            <article>
+                <h3>Crash bandicoto comete suicidio: fanbase vai à loucura</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facilis officiis ab, provident, velit,
+                    a corrupti omnis quaerat quas veritatis aperiam autem explicabo et quod laboriosam optio nisi
+                    maiores iure.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabarel &copy;</p>
+    </footer>
+</body>
+
+</html>
