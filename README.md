@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://gabrielluizsiqueira.github.io/javascript/Idle clicker/v2/idle.html">Clique aqui</a>
+<a href="https://gabrielluizsiqueira.github.io/javascript/Idle clicker/v2/idle.html" target='_blank'>Clique aqui</a>
