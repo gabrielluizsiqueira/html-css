@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-vou mamar agr :/
+<a href="https://gabrielluizsiqueira.github.io/javascript/Idle clicker/v2/idle.html">Executar o Idle Clicker</a>
